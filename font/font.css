@@ -1,0 +1,7 @@
+/***青鸟华光行楷***/
+@font-face {
+    font-family: "qnhg";        //自定义字体名称
+    src:url("/font/qnhg.ttf");       //字体包路径
+    font-weight: normal;
+    font-style: normal;
+}
