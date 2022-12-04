@@ -8,7 +8,19 @@
 <link rel="stylesheet" href="/font/font.css">
 <title>维护中 - 山雨欲来风满楼的个人博客</title>
 <audio autoplay src="http://aqqmusic.tc.qq.com/amobile.music.tc.qq.com/C4000034pYNB2q9Wbc.m4a?guid=3548309254&vkey=F5323D10ED4D5FFB6BFC6DFEEBF8AF7B80274FF4FD081892A346BFAF357BDDC606ADC14AA643C1A1136345F7022C2A4F6BFBC69A5F7DA821&uin=&fromtag=123032"></audio>
-<script src="/js/yinghua.js"></script>
+<script type="text/javascript">//樱花
+ var system ={}; 
+ var p = navigator.platform; 
+ system.win = p.indexOf("Win") == 0; 
+ system.mac = p.indexOf("Mac") == 0; 
+ system.x11 = (p == "X11") || (p.indexOf("Linux") == 0); 
+ if(system.win||system.mac||system.xll){//如果是电脑
+
+ $.getScript("https://cdn.jsdelivr.net/gh/ivampiresp/special-JavaScript/yinghua.js");
+ }else{ //如果是手机
+
+ }
+ </script>
 <style type="text/css">
 body{
 	background-image:url("/images/photo5.jpg");
