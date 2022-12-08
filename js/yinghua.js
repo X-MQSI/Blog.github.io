@@ -1,4 +1,4 @@
-//樱花 sakura
+//樱花 Quaint 修改版
 
 var stop, staticx;
 var img = new Image();
@@ -198,6 +198,7 @@ function startSakura() {
 
 window.onresize = function() {
 	var canvasSnow = document.getElementById('canvas_snow');
+	// canvasSnow 在改变浏览器大小的时候会为null (修改空指针异常), 不过在改变大小时体验稍差
 	if (canvasSnow) {
 		canvasSnow.width = window.innerWidth;
 		canvasSnow.height = window.innerHeight;
@@ -207,6 +208,8 @@ window.onresize = function() {
 img.onload = function() {
 	startSakura();
 }
+
+// 没看懂哪里调用了, 应该是关闭樱花特效的方法. 还请大佬们解释自己是怎么使用的.
 function stopp() {
 	if(staticx) {
 		var child = document.getElementById("canvas_sakura");
