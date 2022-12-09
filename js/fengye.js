@@ -2,7 +2,7 @@
 // 山雨欲来风满楼（MQSI）进行了图片换源
 var stop, staticx;
 var img = new Image();
-img.src = "https://ss2.meipian.me/articleTpl/6ceb68e48fa147d17ba4dc8e629a8338.png";
+img.src = "https://mqsi.xyz/images/fengye.png";
 
 function Sakura(x, y, s, r, fn) {
     this.x = x;
