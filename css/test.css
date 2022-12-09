@@ -6,10 +6,10 @@
 }
 
 body{
-	background-image:url("https://f0.0sm.com/node0/2022/12/8638ED64E2BFFED1-e453e450a327a7db.jpg");
 	background-size: cover;
 	height: 100%;
-	background-repeat: no-repeat;}
+	background-repeat: no-repeat;
+}
 p{
 	font-family: "HWKAITI";
 	font-size: 52pt;
