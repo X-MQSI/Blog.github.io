@@ -1,0 +1,11 @@
+var imgurl = new Array();
+imgurl[0] = "https://mqsi.xyz/images/photo1.jpg"
+imgurl[1] = "https://mqsi.xyz/images/photo1.jpg"
+imgurl[2] = "https://mqsi.xyz/images/photo1.jpg"
+imgurl[3] = "https://mqsi.xyz/images/photo1.jpg"
+imgurl[4] = "https://mqsi.xyz/images/photo1.jpg"
+imgurl[5] = "https://mqsi.xyz/images/photo1.jpg"
+imgurl[6] = "https://mqsi.xyz/images/photo1.jpg"
+var num = Math.floor(Math.random()*7);
+var imgurl1 = imgurl[num]
+document.body.style.backgroundImage = "url(imgurl1)";
