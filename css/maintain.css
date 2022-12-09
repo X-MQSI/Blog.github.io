@@ -1,7 +1,9 @@
-@font-face { 
-  font-family: STKAITI; /*这里是说明调用来的字体名字*/ 
-  src: url(‘https://www.qtool.net/storage/fonts/20200215/font-15817617031047.ttf’);  
-    }
+@font-face {
+    font-family: 'HWKAITI';
+    src: url('https://www.qtool.net/storage/fonts/20200215/font-15817617031047.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
 
 body{
 	background-image:url("https://f0.0sm.com/node0/2022/12/8638ED64E2BFFED1-e453e450a327a7db.jpg");
@@ -9,10 +11,10 @@ body{
 	height: 100%;
 	background-repeat: no-repeat;}
 p{
-	font-family: "STKAITI";
+	font-family: "HWKAITI";
 	font-size: 52pt;
 	text-align:center; }
 #jinrishici-sentence{
-	font-family: "STKAITI";
+	font-family: "HWKAITI";
 	font-size: 20pt;
 	text-align:center; }
