@@ -1,3 +1,4 @@
+// 原js链接：https://blog-static.cnblogs.com/files/quaint/sakuraPlus.js
 var stop, staticx;
 var img = new Image();
 img.src = "/images/yinghua.png";
