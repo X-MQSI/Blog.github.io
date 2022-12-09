@@ -8,4 +8,4 @@ bodyBgs[5] = "https://f0.0sm.com/node0/2022/12/8638ED651C5CA8A3-c6c0ce939392f3d2
 bodyBgs[6] = "https://f0.0sm.com/node0/2022/12/8638ED64F4577189-1bf632ce00fecc67.jpg";
 var randomBgIndex = Math.round( Math.random() * 6 );
 //输出随机的背景图
-document.write('<style>body{background:url(' + bodyBgs[randomBgIndex] + ') no-repeat 50% 0}</style>');
+document.write("<style type="text/css">body{background-image:url(' + bodyBgs[randomBgIndex] + ');background-size: cover;height:100%;background-repeat:no-repeat;}</style>");
