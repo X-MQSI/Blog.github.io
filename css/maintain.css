@@ -1,10 +1,14 @@
+@font-face{
+font-family: '华文楷体';
+url('https://ifont.meipian.me/fontsv1/5e8fe51c54377631082c1281d9ccdd22.ttf')  format('truetype');
+}
 body{
 	background-image:url("https://f0.0sm.com/node0/2022/12/8638ED64E2BFFED1-e453e450a327a7db.jpg");
 	background-size: cover;
 	height: 100%;
 	background-repeat: no-repeat;}
 p{
-	font-family: "\534E\6587\6977\4F53";
+	font-family: "华文楷体";
 	font-size: 52pt;
 	text-align:center; }
 #gushici{
