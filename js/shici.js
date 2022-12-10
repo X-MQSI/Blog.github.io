@@ -1,4 +1,3 @@
-<script>
   var xhr = new XMLHttpRequest();
   xhr.open('get', 'https://v1.jinrishici.com/all.txt');
   xhr.onreadystatechange = function () {
@@ -8,4 +7,3 @@
     }
   };
   xhr.send();
-</script>
