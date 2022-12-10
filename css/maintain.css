@@ -1,17 +1,11 @@
-@font-face{
-font-family: '华文楷体';
-url('https://all-file.lanzoug.com/1210190054168426bb/2021/10/11/8b8fd3dd6e30c91f19201ce1ab1afb21.ttf?st=ye8zNcobrHqdbQcEOq87ow&e=1670674405&b=UeZe0wSKAuFVlgTVBLJU9Va0DbUNsVHEA34IcVMgVTE_c&fi=54168426&pid=140-240-36-119&up=2&mp=1&co=1')  format('truetype');
-}
 body{
 	background-image:url("https://f0.0sm.com/node0/2022/12/8638ED64E2BFFED1-e453e450a327a7db.jpg");
 	background-size: cover;
 	height: 100%;
 	background-repeat: no-repeat;}
 p{
-	font-family: "华文楷体";
 	font-size: 52pt;
 	text-align:center; }
 #gushici{
-	font-family: "华文楷体";
 	font-size: 20pt;
 	text-align:center; }
