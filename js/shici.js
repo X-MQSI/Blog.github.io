@@ -3,7 +3,9 @@
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4) {
       var gushici = document.getElementById('gushici');
-      gushici.innerText = xhr.responseText;
+      const shici = xhr.responseText;
+      const nshici = shici.replace(new RegExp('。', 'g'), '-');
+      gushici.innerText = nshici;
     }
   };
   xhr.send();
