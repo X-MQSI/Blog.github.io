@@ -7,18 +7,7 @@
 body{
 	background-color: #abe2ff;
 	font-family: "kaiti","STKaiti";
-#a {
-	background-image: url("/images/greenleafback.png");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	position: absolute;
-	padding: 0px;
-	width: 100%;
-	height: 15%;
-	top: 0;
-	left: 0;
 }
-
 p{font-size: 52pt;text-align:center; }
 
 #gushici{font-size: 20pt;text-align:center; }
