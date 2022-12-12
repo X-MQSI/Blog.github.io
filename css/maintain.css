@@ -2,12 +2,10 @@ body{
 	background-image:url("https://f0.0sm.com/node0/2022/12/8638ED64E2BFFED1-e453e450a327a7db.jpg");
 	background-size: cover;
 	height: 100%;
-	background-repeat: no-repeat;}
-p{
-	font-family:"STKaiti";
-        font-size: 52pt;
-	text-align:center; }
-#gushici{
-        font-family:"STKaiti";
-	font-size: 20pt;
-	text-align:center; }
+	background-repeat: no-repeat;
+	font-family: "日暮秋山行楷"，"STKaiti";
+	font-family: "Bitstream Vera Serif Bold", serif
+}
+p{font-size: 52pt;text-align:center; }
+
+#gushici{font-size: 20pt;text-align:center; }
