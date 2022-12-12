@@ -1,13 +1,20 @@
 @font-face {
-  font-family: "kaiti";
-  src: local("日暮秋山行楷"),
-  url(/font/kaiti.ttf);
-  font-weight: bold;
+	font-family: "kaiti";
+	src: local("日暮秋山行楷"),url(/font/kaiti.ttf);
+	font-weight: bold;
 }
+
+.leaf{
+	width: 100%;
+	background:url(/images/greenleafback.png) no-repeat;
+	background-size: cover 
+}
+
 body{
 	background-color: #abe2ff;
 	font-family: "kaiti","STKaiti";
 }
+
 p{font-size: 52pt;text-align:center; }
 
 #gushici{font-size: 20pt;text-align:center; }
