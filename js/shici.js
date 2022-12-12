@@ -4,7 +4,7 @@
     if (xhr.readyState === 4) {
       var gushici = document.getElementById('gushici');
       const shici = xhr.responseText;
-      const nshici = shici.replace(new RegExp('。', 'g'), ' ');
+      const nshici = shici.replace(new RegExp('。', 'g'), '<br>');
       gushici.innerText = nshici;
     }
   };
