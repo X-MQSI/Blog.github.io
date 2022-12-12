@@ -1,3 +1,7 @@
 body {
   background-color: #abe2ff;
 }
+.img1{
+  background-image: url(/images/greenleafback.png);
+  background-size: 300px 240px;
+}
